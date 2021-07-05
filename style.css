@@ -16,6 +16,7 @@ h1{
 .half-width{
     width: 50%;
     padding: 2%;
+    box-shadow: 10px 10px yellowgreen;
 }
 .half-width img{
     width: 60%;
@@ -30,5 +31,33 @@ border-radius: 5px;
     text-decoration: none;
 }
 .dream-big{
-    background-image:  ;
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+}
+.experiences-area{
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px gray;
+}
+#web-dev-experience{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#full-stack-experience{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;  
+}
+footer p {
+    text-align: center;
 }
